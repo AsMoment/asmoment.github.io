@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FAQ | AsMoment</title>
+<meta name="description" content="Frequently asked questions about AsMoment, privacy, storage, spaces, and beta access.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="AsMoment home">
+      <img src="assets/logo/asmoment-logo.png" alt="" class="brand-mark"><span>AsMoment</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="why-asmoment.html">Why AsMoment</a><a href="index.html#spaces">Spaces</a><a href="privacy.html">Privacy</a><a href="faq.html" class="active">FAQ</a><a href="perspectives.html">Perspectives</a><a href="index.html#how">How it works</a><a href="ai.html">AI</a>
+      <a class="nav-cta" href="beta.html">Join the beta</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content-page faq-page">
+  <section class="page-hero compact-hero">
+    <div class="container narrow">
+      <p class="eyebrow">Questions & answers</p>
+      <h1>Frequently asked questions</h1>
+      <p class="page-lede">AsMoment takes a different approach to social networking. Here are answers to the questions we expect most often during beta.</p>
+    </div>
+  </section>
+  <section class="container narrow faq-list">
+    <details open><summary>What is AsMoment?</summary><p>AsMoment is a social platform built around a simple idea: the social service can help people connect without requiring all of their private content to live inside one company's storage. AsMoment provides the social layer—identity, relationships, communities, sharing choices, and discovery—while applicable private content can be encrypted on your device and stored in a cloud account you select.</p></details>
+    <details><summary>How is AsMoment different from a conventional social network?</summary><p>Most social platforms tightly couple the application and its content storage. AsMoment is designed to separate those roles. The platform coordinates social interaction, while private media can use device-side encryption and user-selected storage. Public features, account information, social relationships, permissions, and service metadata still need to be handled by the platform.</p></details>
+    <details><summary>Where are my photos, videos, and files stored?</summary><p>For supported private-content workflows, you can connect a supported personal cloud such as Google Drive, Dropbox, or Box. AsMoment may also provide limited AsMoment-managed storage for testing or selected features. The available choices may change during beta.</p></details>
+    <details><summary>Can AsMoment see my private content?</summary><p>AsMoment is designed so applicable private content can be encrypted on your device before it is stored. In those workflows, the service does not need the plaintext content for storage. AsMoment still processes information needed to operate the social service, and content you intentionally publish to public areas such as Town Square is public by design.</p></details>
+    <details><summary>Why does AsMoment ask me to connect Google Drive, Dropbox, or Box?</summary><p>The connection lets AsMoment place and retrieve content from the storage provider you choose. The permissions requested depend on the provider and feature. Your cloud account remains subject to that provider's own terms, privacy practices, quotas, and security controls.</p></details>
+    <details><summary>What happens if I disconnect my cloud account?</summary><p>Features that depend on that storage connection may no longer be able to retrieve or synchronize the affected content. Disconnecting AsMoment does not necessarily delete files already stored with the cloud provider; you remain responsible for managing those files and the provider account.</p></details>
+    <details><summary>What are the four AsMoment spaces?</summary><p><strong>My Little Corner</strong> is for you. <strong>Family & Friends</strong> is for people you choose. <strong>My Communities</strong> supports groups you create or join. <strong>Town Square</strong> is the public space. The spaces make audience and sharing context more explicit.</p></details>
+    <details><summary>Is Town Square private?</summary><p>No. Town Square is intended for public sharing. Content posted there should be treated as public and may be viewed, copied, or reshared by others.</p></details>
+    <details><summary>Which devices does AsMoment support?</summary><p>AsMoment is being developed with Flutter for Android, iOS, Linux, macOS, and Windows. Feature availability and beta readiness may differ by platform.</p></details>
+    <details><summary>Who can join the beta?</summary><p>The beta is intended for people age 16 or older. Access may be limited while we test reliability, privacy controls, cloud integrations, and cross-platform behavior.</p></details>
+    <details><summary>Does AsMoment use AI?</summary><p>AI is a future direction for AsMoment rather than the defining feature of the current beta. Our goal is to explore useful personal AI that operates within privacy and permission boundaries established by the user.</p></details>
+    <details><summary>Who operates AsMoment?</summary><p>AsMoment is a product of POCIANET LLC, an Iowa limited liability company. Questions can be sent to <a href="mailto:admin@asmoment.com">admin@asmoment.com</a>.</p></details>
+  </section>
+</main>
+
+
+<footer class="footer">
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a class="brand" href="index.html"><img src="assets/logo/asmoment-logo.png" alt="" class="brand-mark"><span>AsMoment</span></a>
+      <p>Your Cloud. Your Content.<br>Your Community.</p>
+    </div>
+    <div class="footer-col"><strong>Explore</strong><a href="why-asmoment.html">Why AsMoment</a><a href="index.html#spaces">Four Spaces</a><a href="index.html#how">How it works</a><a href="faq.html">FAQ</a><a href="perspectives.html">Perspectives</a><a href="ai.html">AsMoment & AI</a></div>
+    <div class="footer-col"><strong>Legal & Privacy</strong><a href="privacy.html">Privacy by design</a><a href="Footer/privacy.html">Privacy Policy</a><a href="Footer/terms.html">Terms of Service</a><a href="mailto:admin@asmoment.com">Contact</a></div>
+    <div class="footer-col"><strong>Beta</strong><a href="beta.html">Join beta</a><span>iOS · Android</span><span>macOS · Windows · Linux</span></div>
+  </div>
+  <p class="company-line">AsMoment is a product of POCIANET LLC.</p>
+  <div class="footer-bottom"><span>© <span id="year"></span> POCIANET LLC. All rights reserved.</span><span>Designed for a more personal social web.</span></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
